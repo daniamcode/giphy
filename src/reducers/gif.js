@@ -1,9 +1,9 @@
 import actionTypes from '../actions/actionTypes';
 
-const gifReducer = (state = [], action) => {
+const gifReducer = (state = {gifs: [], isLoading: true}, action) => {
     switch(action.type) {
         case actionTypes.LOAD_GIFS:
-            return action.payload;;
+            return action.payload;
         default:
             return state;
     }

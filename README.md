@@ -1,3 +1,10 @@
+# Giphy - Frontend React Application with Redux
+
+This mini App shows the trending gifs from giphy.com. I did it calling Giphy's API (just once each time to avoid extra loading), with React & Redux, using useSelector and useDispatch Hooks rather than mapStateToProps and mapDispatchToProps, with Async-Await & Axios rather than Fetch, and animating CSS with transform:rotate. Some subtleties: Container component & dumb component, thunk middleware, spinner when loading and combineReducers for future scalability.
+
+Presentation: https://www.youtube.com/watch?v=2TMtZYSZbLQ
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

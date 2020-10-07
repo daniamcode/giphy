@@ -8,11 +8,10 @@ const Grid = () => {
   const dispatch = useDispatch();
   const gifs = useSelector((state) => state.gif.gifs);
   const isLoading = useSelector((state) => state.gif.isLoading);
-  
+
   useEffect(() => {
     dispatch(loadGifs());
   }, [dispatch]);
-
 
   return isLoading ? (
     <Spinner />

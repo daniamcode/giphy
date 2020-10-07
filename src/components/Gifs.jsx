@@ -6,7 +6,7 @@ const Gifs = ({ gif }) => {
     <div className="card">
       <div className="card__inner">
         <div className="card__front">
-          <img src={gif.images.downsized_still.url} alt="" />
+          <img src={gif.images.downsized_medium.url} alt="" />
         </div>
         <div className="card__back">
           <h1>{gif.title}</h1>
